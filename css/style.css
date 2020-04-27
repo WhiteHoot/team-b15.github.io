@@ -14,7 +14,7 @@ body {
 .top-wrapper-container {
     max-width: 1170px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 15px;
     margin: 0 auto;
   }
 
@@ -48,8 +48,9 @@ header{
     background-color:#FFFFFF;
     position: fixed;
     top: 0;
-    z-index: 10px;
+    z-index: 10;
 }
+
 .header-left{
     float: left;
 }
@@ -71,7 +72,7 @@ header{
 }
 .header-right a:hover{
     background-color:#191919;
-    color: #FFFFFF;
+    color: white;
 }
 .fa{
     margin-right: 5px;
@@ -185,20 +186,15 @@ header{
     border-radius:0;
 }
 
-.heading-2 span{
+.heading-2 span {
   background: #191919;
   color: white;
-}
-
-.vl {
-  border-left: 6px solid green;
-  height: 500px;
 }
 
 /*-------------------------------PENUTUP CSS SECTION-2-------------------------------*/
 
 
-/* START - CSS Section 3 - Team Profile */
+/*-------------------------PEMBUKA CSS SECTION-3 PROFIL TIM--------------------------*/
 
 .container-profile {
     margin: 0 30px;
@@ -210,8 +206,9 @@ a {
 
 .heading-profile {
     text-transform: uppercase;
+    font-size: 30px;
     letter-spacing: 6px;
-    margin: 25px 0 10px 0;
+    margin: 45px 0 10px 0;
     text-align: center;
     position: relative;
     font-family: 'Helvetica', cursive;
@@ -321,4 +318,4 @@ a {
     }
 }
 
-/* END - CSS Section 3 - Team Profile */
+/*-------------------------PENUTUP CSS SECTION-3 PROFIL TIM--------------------------*/
